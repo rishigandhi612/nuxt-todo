@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
     v-model="drawer"  
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -24,22 +24,22 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" fixed app>
+    </v-navigation-drawer> -->
+    <!-- <v-app-bar :clipped-left="clipped" fixed app> -->
       <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
-      <v-btn icon @click.stop="miniVariant = !miniVariant">
+      <!-- <v-btn icon @click.stop="miniVariant = !miniVariant">
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
+      </v-btn> -->
       <!-- <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>mdi-application</v-icon>
       </v-btn> -->
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
-      <v-spacer />
+      <!-- <v-toolbar-title>{{ title }}</v-toolbar-title> -->
+      <!-- <v-spacer /> -->
       <!-- <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn> -->
-    </v-app-bar>
-    <v-main>
+    <!-- </v-app-bar> -->
+    <v-main class="my-16">
       <v-container>
         <Nuxt />
       </v-container>
@@ -83,7 +83,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Nuxt - Todo',
+      title: 'Rishi - Nuxt - Todo',
     }
   },
   computed: {
