@@ -2,15 +2,15 @@
   {
     "name": "inspire",
     "path": "/inspire",
-    "component": "C:\\\\Users\\\\heman\\\\OneDrive\\\\Desktop\\\\nuxt-todo\\\\pages\\\\inspire.vue",
+    "component": "/Users/rishi/Desktop/Learning/NUXT/nuxt-todo/pages/inspire.vue",
     "chunkName": "pages/inspire",
-    "_name": "_1b8eca70"
+    "_name": "_0145f688"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\heman\\\\OneDrive\\\\Desktop\\\\nuxt-todo\\\\pages\\\\index.vue",
+    "component": "/Users/rishi/Desktop/Learning/NUXT/nuxt-todo/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_f55f9b80"
+    "_name": "_5b817e00"
   }
 ]

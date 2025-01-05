@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -13,9 +13,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_c8ee99aa from 'nuxt_plugin_plugin_c8ee99aa' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_plugin_466e5eae from 'nuxt_plugin_plugin_466e5eae' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_d7a96064 from 'nuxt_plugin_axios_d7a96064' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_1d380e88 from 'nuxt_plugin_plugin_1d380e88' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_1b55fb34 from 'nuxt_plugin_plugin_1b55fb34' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_axios_6d5474c4 from 'nuxt_plugin_axios_6d5474c4' // Source: ./axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -212,16 +212,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_c8ee99aa === 'function') {
-    await nuxt_plugin_plugin_c8ee99aa(app.context, inject)
+  if (typeof nuxt_plugin_plugin_1d380e88 === 'function') {
+    await nuxt_plugin_plugin_1d380e88(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_466e5eae === 'function') {
-    await nuxt_plugin_plugin_466e5eae(app.context, inject)
+  if (typeof nuxt_plugin_plugin_1b55fb34 === 'function') {
+    await nuxt_plugin_plugin_1b55fb34(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_d7a96064 === 'function') {
-    await nuxt_plugin_axios_d7a96064(app.context, inject)
+  if (typeof nuxt_plugin_axios_6d5474c4 === 'function') {
+    await nuxt_plugin_axios_6d5474c4(app.context, inject)
   }
 
   // Lock enablePreview in context
