@@ -1,12 +1,5 @@
 [
   {
-    "name": "inspire",
-    "path": "/inspire",
-    "component": "/Users/rishi/Desktop/Learning/NUXT/nuxt-todo/pages/inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_0145f688"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "/Users/rishi/Desktop/Learning/NUXT/nuxt-todo/pages/index.vue",
